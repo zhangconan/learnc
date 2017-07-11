@@ -8,6 +8,8 @@ int main()
     //printf("Hello world!\n");
     //testInt2Buff();
     printf("%d",rand());
+    char buff[] = "hello" ;
+    charAdd(buff);
     return 0;
 }
 void testInt2Buff(){
