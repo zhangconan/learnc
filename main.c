@@ -6,7 +6,8 @@ int main()
     //learnPointer();
     //test();
     //printf("Hello world!\n");
-    testInt2Buff();
+    //testInt2Buff();
+    printf("%d",rand());
     return 0;
 }
 void testInt2Buff(){
