@@ -7,7 +7,7 @@ int main()
     //test();
     //printf("Hello world!\n");
     //testInt2Buff();
-    printf("%d",rand());
+    //printf("%d",rand());
     char buff[] = "hello" ;
     charAdd(buff);
     return 0;
