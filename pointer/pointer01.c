@@ -34,16 +34,14 @@ void learnPointer()
 }
 
 void charAdd(const char *src){
-
     unsigned char *pEnd;
     const char *ppSrcs[2];
     int lens[2];
     lens[0] = 10;
+    lens[0] = 20;
+    //src = "hello";
     ppSrcs[0] = src;
-    printf("%s",pEnd);
-    printf("%s\n","╥и");
     pEnd = (unsigned char *)ppSrcs[0]+lens[0];
-    printf("%d\n",lens[0]);
     printf("%s",pEnd);
     printf("%s\n","уе");
     printf("%s\n",ppSrcs[0]);
