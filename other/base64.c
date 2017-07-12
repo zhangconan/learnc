@@ -81,3 +81,28 @@ char *base64_encode_ex(const char *src, \
 
   return dest;
 }
+
+char *testPointMinus(char *dest,int *dest_len){
+
+    char *pDest;
+    pDest = dest;
+    int i;
+    //相当于给dest赋值
+    for(i=0;i<4;i++){
+        *pDest++ = 'a'+i;
+        *pDest++ = 'b'+i;
+        *pDest++ = 'c'+i;
+        *pDest++ = 'd'+i;
+    }
+     printf("%s\n","开始");
+    printf("%s\n",pDest);
+    printf("%s\n","开始2");
+    printf("%s\n",dest);
+  *pDest = '\0';
+    printf("%s",pDest);
+    printf("%s\n","结束");
+    printf("%s\n",dest);
+    //数组的长度
+  *dest_len = pDest - dest;
+  printf("%d",dest_len);
+}
