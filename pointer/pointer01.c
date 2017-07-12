@@ -37,6 +37,7 @@ void charAdd(const char *src){
     unsigned char *pEnd;
     const char *ppSrcs[2];
     int lens[2];
+    lens[0] = 10;
     lens[0] = 20;
     //src = "hello";
     ppSrcs[0] = src;
