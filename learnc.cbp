@@ -34,6 +34,25 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="net/int2buff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/learn01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/learn02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/learnFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/structLearn.h" />
 		<Unit filename="pointer/pointer01.c">
 			<Option compilerVar="CC" />
 		</Unit>
