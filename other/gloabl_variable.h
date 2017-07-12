@@ -1,0 +1,1 @@
+#define FDFS_STORAGE_DATA_DIR_FORMAT         "%02X"

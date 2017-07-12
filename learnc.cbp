@@ -40,6 +40,10 @@
 		<Unit filename="other/base64.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="other/get_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/gloabl_variable.h" />
 		<Unit filename="other/hash.c">
 			<Option compilerVar="CC" />
 		</Unit>
