@@ -40,10 +40,7 @@
 		<Unit filename="other/base64.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="other/get_file.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="other/gloabl_variable.h" />
+		<Unit filename="other/base64.h" />
 		<Unit filename="other/hash.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -54,6 +51,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="other/learnFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="other/memsetlearn.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="other/structLearn.h" />
