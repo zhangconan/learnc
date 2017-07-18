@@ -38,10 +38,13 @@ int main()
     printf("%d",filename_len);
     testmemset(0, '-', '_', '.');
     */
-    char src[] = "hello";
-    int nSrcLen = 2;
+    /*
+    char src[] = "hellohellohellohellohello";
+    int nSrcLen = 20;
     bool bPad = false;
     base64_encode_ex(src,nSrcLen,bPad);
+    */
+    sizeof_tracker_header();
     return 0;
 }
 
