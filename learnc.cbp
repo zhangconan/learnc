@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="calsizeof.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -57,6 +60,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="other/structLearn.h" />
+		<Unit filename="other/tracker_proto.h" />
 		<Unit filename="pointer/pointer01.c">
 			<Option compilerVar="CC" />
 		</Unit>
